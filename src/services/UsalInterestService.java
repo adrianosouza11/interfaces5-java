@@ -1,12 +1,12 @@
 package services;
 
-public class BrazilInterestService implements InterestService{
+public class UsalInterestService implements InterestService{
     private Double interestRate;
 
-    public BrazilInterestService() {
+    public UsalInterestService() {
     }
 
-    public BrazilInterestService(Double interestRate) {
+    public UsalInterestService(Double interestRate) {
         this.interestRate = interestRate;
     }
 
